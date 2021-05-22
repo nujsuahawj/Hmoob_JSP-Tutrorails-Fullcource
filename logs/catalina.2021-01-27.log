@@ -1,0 +1,142 @@
+27-Jan-2021 13:03:00.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Jan-2021 13:03:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Jan-2021 13:03:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Jan-2021 13:03:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+27-Jan-2021 13:03:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+27-Jan-2021 13:03:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Jan-2021 13:03:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_31\jre
+27-Jan-2021 13:03:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_31-b13
+27-Jan-2021 13:03:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Jan-2021 13:03:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\jsp
+27-Jan-2021 13:03:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\tomcat\apache-tomcat-9.0.39
+27-Jan-2021 13:03:00.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\jsp\conf\logging.properties
+27-Jan-2021 13:03:00.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jan-2021 13:03:00.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|nousuasainther
+27-Jan-2021 13:03:00.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jan-2021 13:03:00.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jan-2021 13:03:00.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jan-2021 13:03:00.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\jsp
+27-Jan-2021 13:03:00.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\tomcat\apache-tomcat-9.0.39
+27-Jan-2021 13:03:00.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\jsp\temp
+27-Jan-2021 13:03:00.942 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_31\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.11-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;C:\Users\Acer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Acer\AppData\Roaming\npm;;.]
+27-Jan-2021 13:03:01.223 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 13:03:01.279 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [489] milliseconds
+27-Jan-2021 13:03:01.307 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jan-2021 13:03:01.307 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Jan-2021 13:03:01.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\manager.xml]
+27-Jan-2021 13:03:01.602 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [141] milliseconds.
+27-Jan-2021 13:03:01.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\manager.xml] has finished in [315] ms
+27-Jan-2021 13:03:01.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml]
+27-Jan-2021 13:03:01.629 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml] has been ignored
+27-Jan-2021 13:03:01.976 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2021 13:03:01.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml] has finished in [363] ms
+27-Jan-2021 13:03:01.995 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 13:03:02.001 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [722] milliseconds
+27-Jan-2021 13:03:08.474 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\Nujonyoutube.xml]
+27-Jan-2021 13:03:08.475 WARNING [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Nujonyoutube] in deployment descriptor [D:\jsp\conf\Catalina\localhost\Nujonyoutube.xml] has been ignored
+27-Jan-2021 13:03:08.683 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2021 13:03:08.685 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\Nujonyoutube.xml] has finished in [211] ms
+27-Jan-2021 13:03:08.688 INFO [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Nujonyoutube]] after start() had already been called. The second call will be ignored.
+27-Jan-2021 13:16:41.447 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Nujonyoutube] has started
+27-Jan-2021 13:16:41.657 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2021 13:16:41.663 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Nujonyoutube] is completed
+27-Jan-2021 13:17:22.022 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Nujonyoutube] has started
+27-Jan-2021 13:17:22.211 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2021 13:17:22.215 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Nujonyoutube] is completed
+27-Jan-2021 13:25:28.850 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Jan-2021 13:25:28.850 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 13:25:28.979 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Jan-2021 13:25:28.987 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Nujonyoutube] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Jan-2021 13:25:28.992 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 13:25:29.026 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 13:55:14.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Jan-2021 13:55:14.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Jan-2021 13:55:14.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Jan-2021 13:55:14.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+27-Jan-2021 13:55:14.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+27-Jan-2021 13:55:14.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Jan-2021 13:55:14.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_31\jre
+27-Jan-2021 13:55:14.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_31-b13
+27-Jan-2021 13:55:14.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Jan-2021 13:55:14.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\jsp
+27-Jan-2021 13:55:14.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\tomcat\apache-tomcat-9.0.39
+27-Jan-2021 13:55:14.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\jsp\conf\logging.properties
+27-Jan-2021 13:55:14.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jan-2021 13:55:14.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|nousuasainther
+27-Jan-2021 13:55:14.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jan-2021 13:55:14.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jan-2021 13:55:14.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jan-2021 13:55:14.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\jsp
+27-Jan-2021 13:55:14.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\tomcat\apache-tomcat-9.0.39
+27-Jan-2021 13:55:14.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\jsp\temp
+27-Jan-2021 13:55:14.921 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_31\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.11-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;C:\Users\Acer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Acer\AppData\Roaming\npm;;.]
+27-Jan-2021 13:55:15.753 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 13:55:15.808 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1373] milliseconds
+27-Jan-2021 13:55:15.853 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jan-2021 13:55:15.853 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Jan-2021 13:55:15.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\manager.xml]
+27-Jan-2021 13:55:16.564 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [408] milliseconds.
+27-Jan-2021 13:55:16.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\manager.xml] has finished in [758] ms
+27-Jan-2021 13:55:16.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\Nujonyoutube.xml]
+27-Jan-2021 13:55:16.626 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Nujonyoutube] in deployment descriptor [D:\jsp\conf\Catalina\localhost\Nujonyoutube.xml] has been ignored
+27-Jan-2021 13:55:17.388 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2021 13:55:17.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\Nujonyoutube.xml] has finished in [809] ms
+27-Jan-2021 13:55:17.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml]
+27-Jan-2021 13:55:17.435 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml] has been ignored
+27-Jan-2021 13:55:18.104 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2021 13:55:18.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml] has finished in [676] ms
+27-Jan-2021 13:55:18.114 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 13:55:18.129 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2320] milliseconds
+27-Jan-2021 13:55:20.687 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Nujonyoutube] has started
+27-Jan-2021 13:55:21.075 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2021 13:55:21.086 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Nujonyoutube] is completed
+27-Jan-2021 14:55:24.485 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Jan-2021 14:55:24.487 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 14:55:24.862 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Jan-2021 14:55:24.891 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Nujonyoutube] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Jan-2021 14:55:24.910 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 14:55:24.920 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 15:20:12.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Jan-2021 15:20:12.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Jan-2021 15:20:12.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Jan-2021 15:20:12.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+27-Jan-2021 15:20:12.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+27-Jan-2021 15:20:12.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Jan-2021 15:20:12.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_31\jre
+27-Jan-2021 15:20:12.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_31-b13
+27-Jan-2021 15:20:12.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Jan-2021 15:20:12.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\jsp
+27-Jan-2021 15:20:12.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\tomcat\apache-tomcat-9.0.39
+27-Jan-2021 15:20:12.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\jsp\conf\logging.properties
+27-Jan-2021 15:20:12.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jan-2021 15:20:12.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|nousuasainther
+27-Jan-2021 15:20:12.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jan-2021 15:20:12.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jan-2021 15:20:12.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jan-2021 15:20:12.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\jsp
+27-Jan-2021 15:20:12.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\tomcat\apache-tomcat-9.0.39
+27-Jan-2021 15:20:12.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\jsp\temp
+27-Jan-2021 15:20:12.902 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_31\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.11-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;C:\Users\Acer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Acer\AppData\Roaming\npm;;.]
+27-Jan-2021 15:20:13.411 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 15:20:13.478 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [822] milliseconds
+27-Jan-2021 15:20:13.519 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jan-2021 15:20:13.520 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Jan-2021 15:20:13.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\manager.xml]
+27-Jan-2021 15:20:14.127 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [301] milliseconds.
+27-Jan-2021 15:20:14.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\manager.xml] has finished in [666] ms
+27-Jan-2021 15:20:14.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\Nujonyoutube.xml]
+27-Jan-2021 15:20:14.204 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Nujonyoutube] in deployment descriptor [D:\jsp\conf\Catalina\localhost\Nujonyoutube.xml] has been ignored
+27-Jan-2021 15:20:15.049 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2021 15:20:15.091 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\Nujonyoutube.xml] has finished in [888] ms
+27-Jan-2021 15:20:15.091 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml]
+27-Jan-2021 15:20:15.093 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml] has been ignored
+27-Jan-2021 15:20:15.647 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2021 15:20:15.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml] has finished in [558] ms
+27-Jan-2021 15:20:15.653 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 15:20:15.665 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2187] milliseconds
+27-Jan-2021 17:31:08.249 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Jan-2021 17:31:08.253 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 17:31:08.389 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Jan-2021 17:31:08.426 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Nujonyoutube] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Jan-2021 17:31:08.434 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Jan-2021 17:31:08.492 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

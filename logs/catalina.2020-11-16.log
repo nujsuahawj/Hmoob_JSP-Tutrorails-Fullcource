@@ -1,0 +1,43 @@
+16-Nov-2020 21:00:04.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+16-Nov-2020 21:00:04.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+16-Nov-2020 21:00:04.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+16-Nov-2020 21:00:04.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-Nov-2020 21:00:04.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2020 21:00:04.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2020 21:00:04.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-15.0.1
+16-Nov-2020 21:00:04.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.1+9-18
+16-Nov-2020 21:00:04.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2020 21:00:04.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\jsp
+16-Nov-2020 21:00:04.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\tomcat\apache-tomcat-9.0.39
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\jsp\conf\logging.properties
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|nousuasainther
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\jsp
+16-Nov-2020 21:00:04.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\tomcat\apache-tomcat-9.0.39
+16-Nov-2020 21:00:04.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\jsp\temp
+16-Nov-2020 21:00:04.707 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.11-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;C:\Users\Acer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Acer\AppData\Roaming\npm;.]
+16-Nov-2020 21:00:05.248 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 21:00:05.397 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1046] milliseconds
+16-Nov-2020 21:00:05.504 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2020 21:00:05.504 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+16-Nov-2020 21:00:05.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\manager.xml]
+16-Nov-2020 21:00:05.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\manager.xml] has finished in [351] ms
+16-Nov-2020 21:00:05.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\nujsuajsp.xml]
+16-Nov-2020 21:00:05.871 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/nujsuajsp] in deployment descriptor [D:\jsp\conf\Catalina\localhost\nujsuajsp.xml] has been ignored
+16-Nov-2020 21:00:05.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\nujsuajsp.xml] has finished in [68] ms
+16-Nov-2020 21:00:05.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml]
+16-Nov-2020 21:00:05.940 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml] has been ignored
+16-Nov-2020 21:00:05.974 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\jsp\conf\Catalina\localhost\ROOT.xml] has finished in [36] ms
+16-Nov-2020 21:00:05.979 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 21:00:05.988 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [590] milliseconds
+16-Nov-2020 21:03:47.221 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Nov-2020 21:03:47.221 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 21:03:47.242 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2020 21:03:47.264 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 21:03:47.289 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
